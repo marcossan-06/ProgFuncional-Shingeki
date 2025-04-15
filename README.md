@@ -41,6 +41,7 @@ Lo he diseñado con una arquitectura modular basada en:
 Ejecuta el contenido del fichero shingeki.sql en tu servidor MySQL para generar la base de datos y tablas.
 
 Al ejecutar el programa se insertarán algunos datos predeterminados en la base de datos, una vez ejecutado por primera vez asegurate de comentar las 2 lineas del Main.java que realizan esta función:
+
 ![image](https://github.com/user-attachments/assets/1ae30172-5e7b-4763-aece-2403b3eeb3aa)
 
 
