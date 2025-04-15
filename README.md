@@ -3,17 +3,11 @@
 Este proyecto es una aplicación de consola desarrollada con **Java 23**, basada en el universo de *Shingeki no Kyojin (Attack on Titan)*. He implementado operaciones **CRUD** básicas sobre las entidades **Personajes** y **Batallas**.
 En el Main.java incluye **ejercicios de programación funcional** usando **streams** y **expresiones lambda**.
 
----
-
-## 📚 Descripción General
-
 El objetivo del proyecto es que puedas aprender y aplicar los principios de la programación funcional junto con un sistema CRUD sencillo conectado a una base de datos **MySQL**, y si te mola la temática pues mejor no?😁
 
 ---
 
-## 🧩 Funcionalidades
-
-### 🔁 CRUD Completo
+### 🔁 CRUD
 - ✅ **Listar** personajes y batallas
 - 📝 **Actualizar** datos
 - ❌ **Eliminar** por identificador
@@ -36,7 +30,10 @@ El objetivo del proyecto es que puedas aprender y aplicar los principios de la p
 
 ## Configuración y ejecución
 
-- ⚠️ IMPORTANTE: Verifica las credenciales en la clase conexionDB.java y ajustalas según tu configuración.
-Ejecuta el contenido del fichero hospital.sql en tu servidor MySQL para generar la base de datos y tablas. Ejecuta el Main.java para poner la aplicación en funcionamiento. 😁
+### ⚠️ IMPORTANTE: Verifica las credenciales en la clase conexionDB.java y ajustalas según tu configuración.
+Ejecuta el contenido del fichero shingeki.sql en tu servidor MySQL para generar la base de datos y tablas.
 
-Al ejecutar el programa se insertarán algunos datos predeterminados en la base de datos, una vez ejecutado por primera vez asegurate de comentar las 2 lineas que realizan esta función:
+Al ejecutar el programa se insertarán algunos datos predeterminados en la base de datos, una vez ejecutado por primera vez asegurate de comentar las 2 lineas del Main.java que realizan esta función:
+![image](https://github.com/user-attachments/assets/1ae30172-5e7b-4763-aece-2403b3eeb3aa)
+
+
