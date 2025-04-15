@@ -5,6 +5,12 @@ En el Main.java incluye **ejercicios de programación funcional** usando **strea
 
 El objetivo del proyecto es que puedas aprender y aplicar los principios de la programación funcional junto con un sistema CRUD sencillo conectado a una base de datos **MySQL**, y si te mola la temática pues mejor no?😁
 
+Lo he diseñado con una arquitectura modular basada en:
+- ✅ POJO (entidades)
+- ✅ DAO (Data Access Object)
+- ✅ Base de datos MySQL
+- ✅ JSON con datos iniciales para insertar en la BD
+
 ---
 
 ### 🔁 CRUD
@@ -20,15 +26,16 @@ El objetivo del proyecto es que puedas aprender y aplicar los principios de la p
 
 ---
 
-## ⚙ Tecnologías Usadas
+## 🛠 Tecnologías Usadas
 
 - **Java 23**
 - **Maven**
 - **MySQL**
 - **JDBC** para conexión con la base de datos
+- **Gson (Google)** para manejo de JSON
 - **Programación funcional** con Java Streams
 
-## Configuración y ejecución
+## ⚙ Configuración y ejecución
 
 ### ⚠️ IMPORTANTE: Verifica las credenciales en la clase conexionDB.java y ajustalas según tu configuración.
 Ejecuta el contenido del fichero shingeki.sql en tu servidor MySQL para generar la base de datos y tablas.
